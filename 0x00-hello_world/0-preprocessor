@@ -1,3 +1,4 @@
 #!/bin/bash
 gcc  -E -o c
 gcc  -E -o c
+gcc "" -E -o c
