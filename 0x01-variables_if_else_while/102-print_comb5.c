@@ -16,7 +16,7 @@ int main(void)
 			{
 				for (m = 48; m <= 57; m++)
 				{
-					if (((n+m)>(c+k) && n >= c) || c < n)
+					if (((n + m) > (c + k) && n >= c) || c < n)
 					{
 						putchar(c);
 						putchar(k);
@@ -24,13 +24,11 @@ int main(void)
 						putchar(n);
 						putchar(m);
 
-						if (c+k+n+m == 227 && c == 57)
+						if (c + k + n + m == 227 && c == 57)
 							break;
-						else
-						{
-							putchar(',');
-							putchar(' ');
-						}
+						
+						putchar(',');
+						putchar(' ');
 					}
 				}
 			}
