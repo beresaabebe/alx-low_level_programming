@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main every run starts from here
+ * main everything starts to run from here
+ *
  * Return: show success 0
  */
 int main(void)
