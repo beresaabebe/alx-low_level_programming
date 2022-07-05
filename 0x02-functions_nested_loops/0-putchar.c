@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  *main - everything goes from here
  *Return: always show as success value 
