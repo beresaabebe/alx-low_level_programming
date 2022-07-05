@@ -4,7 +4,7 @@
  * main - Everything goes from here
  * Return: always return sucess
  */
-int main(void)
+int print_alphabet(void)
 {
 	int c;
 
