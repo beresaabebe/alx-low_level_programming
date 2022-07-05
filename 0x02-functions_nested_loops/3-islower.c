@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _islowe - a function to test lower or not
+ * _islower(int c) - a function to test lower or not
  * Return: always return value 0 or 1
  */
 int _islower(int c)
