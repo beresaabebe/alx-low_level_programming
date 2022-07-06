@@ -20,6 +20,6 @@ int main(void)
 			sum += k;
 		}
 	}
-	printf("%lu \n", sum); 
+	printf("%lu\n", sum);
 	return (0);
 }
