@@ -1,13 +1,12 @@
 #include "main.h"
 /**
- * add - a function that add two int and return
- * @a = first number, 
+ * add - a function that add two int and return result
+ * @a = first number
  * @b = second number
- * Return: return values of rseult
+ * Return: return a +b
  */
 int add(int a, int b
 {
-	int result = a + b;
 
-	return (result);
+	return (a + b);
 }
