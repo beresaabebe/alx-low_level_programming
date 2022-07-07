@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * main - a function to check positive or negative
+ * main - everty thing goes from here
+ * positive_or_negative - a funtion to check positive or negative or zero
  * @i - is value
  * Return: return values
  */
