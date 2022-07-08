@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * print_numbers - a function that prints number 0 - 9
- * Return: return success value
+ * print_numbers - a function that prints number
+ * Return: return 0 -9 success value
  */
 void print_numbers(void)
 {
 	int c;
 
 	for (c = 0; c <= 9; c++)
-		putchar(c + '0');
-	putchar('\n');
+		_putchar(c + '0');
+	_putchar('\n');
 }
