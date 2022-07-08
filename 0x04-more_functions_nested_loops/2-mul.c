@@ -5,7 +5,7 @@
  * @b: second number
  * Return: return multple
  */
-int mul(unsigned long a, unsigned long b)
+int mul(int a, int b)
 {
   return (a * b);
 }
