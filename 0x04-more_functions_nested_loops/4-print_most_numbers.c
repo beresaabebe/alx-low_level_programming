@@ -1,0 +1,16 @@
+#include "main.h"
+/**
+ * print_most_numbers - a function that prints values
+ * don't print 2 and 4
+ * Return: return nothing
+ */
+void print_most_numbers(void)
+{
+	for (int i = 0; i <= 9; i++)
+	{
+		if (i != 2 || i != 4)
+			_pucthar(i, '0');
+	}
+
+	_putchar('\n');
+}
