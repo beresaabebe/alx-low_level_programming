@@ -1,21 +1,20 @@
 #include "main.h"
-
 /**
- * print_diagonal -  checks for checks for a digit (0 through 9).
- * @n: n -  Variable
- * Return: Always 0.
+ * print_dagonal - a fuck that checks for a digits
+ * @n: is a variable
+ * Return: always return success
  */
 void print_diagonal(int n)
 {
-	int x, y;
+	int a, b;
 
 	if (n > 0)
 	{
-		for (x = 1; x <= n; x++)
+		for (a = 1; a <= n; a++)
 		{
-			for (y = 1; y <= n; y++)
+			for (b = 1; b <= n; b++)
 			{
-				if (x == y)
+				if ( x == y)
 				{
 					_putchar(92);
 					break;
