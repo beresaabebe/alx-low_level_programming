@@ -4,7 +4,7 @@
  * @str : values to be pased
  * Return : always return some values
  */
-void put_half(char *str)
+void puts_half(char *str)
 {
 	int i;
 
