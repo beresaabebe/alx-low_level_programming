@@ -10,7 +10,7 @@ int main(void)
 {
 	char seed[53] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	char password[22];
-	int i, n, pass. compl;
+	int i, n, pass, compl;
 
 	srand(time(0));
 
