@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * print_dagonal - a fuck that checks for a digits
- * @n: is a variable
- * Return: always return success
+ * @n: n - is a variable
+ * Return: always show return values
  */
 void print_diagonal(int n)
 {
