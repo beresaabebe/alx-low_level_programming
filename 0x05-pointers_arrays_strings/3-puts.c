@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _puts - function that check the codes
- * *str: pointer values
+ * _puts - function that check the codes to print strings
+ * @str: values to be passed
  * Return: always return some values
  */
 void _puts(char *str)
