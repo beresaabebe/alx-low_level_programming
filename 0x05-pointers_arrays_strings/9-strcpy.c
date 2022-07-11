@@ -1,11 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _strcpy - a function that copies string
- * @dest: destination char values
- * @src : source pointer char values
- * Return : always return some values
- * return : values of dest
+ * _strcpy - check the code for Holberton School students.
+ * @dest: pointer char type
+ * @src: pointer char type
+ * Return: Always 0.
  */
 char *_strcpy(char *dest, char *src)
 {
