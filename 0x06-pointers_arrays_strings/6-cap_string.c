@@ -1,15 +1,4 @@
-#include "main.h"
-/**
- * cap_string - a function that capitalizes all words of a string
- * @s: string to be passed
- * Return: return values
- */
-char *cap_string(char *s)
-{
-	int a = 0, i;
-	int lim = 13;
-	char sept[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}'};
-
+it
 	while (s[a])
 	{
 		i = 0;
