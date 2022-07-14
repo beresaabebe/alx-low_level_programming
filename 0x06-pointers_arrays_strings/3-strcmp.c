@@ -1,9 +1,8 @@
 #include "main.h"
 /**
  * _strcmp -  a function that copy  a string values
- * @dest: destination values
- * @src: source values
- * @n: copy limit
+ * @s1: destination values
+ * @s2: source value
  * Return: return values
  */
 int _strcmp(char *s1, char *s2)
