@@ -6,8 +6,7 @@
  */
 char *cap_string(char *s)
 {
-	int a = 0;
-	int i;
+	int a = 0, i;
 	int lim = 13;
 	char sept[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}'};
 
