@@ -6,7 +6,7 @@
  * @n: bytes of memory area
  * Return: return filled momery
  */
-char *_memset(char *s, char b, unsigned int a)
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int a;
 
@@ -14,6 +14,6 @@ char *_memset(char *s, char b, unsigned int a)
 	{
 		s[a] = b;
 	}
-	
+
 	return (s);
-}	
+}
