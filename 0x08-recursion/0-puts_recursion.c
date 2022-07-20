@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _put_recursion - a funtion that print a string folled by a new line
+ * _puts_recursion - a funtion that print a string folled by a new line
  * @s: string
  * Return: Return success value
  */
