@@ -7,7 +7,7 @@
 int palind1(char *a, int i)
 {
 	if (*a == 0)
-		return (i, -1);
+		return (i - 1);
 	return (palind1(a + 1, i + 1));
 }
 /**
