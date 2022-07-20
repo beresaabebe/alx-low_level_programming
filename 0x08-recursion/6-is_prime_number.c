@@ -21,8 +21,8 @@ int prime_test(int a, int b)
  */
 int is_prime_number(int n)
 {
-	if (n % 2 != 0)
-		return (1);
+	if (n <= 1)
+		return (0);
 	else
 		return (prime_test(n, 2));
 }
