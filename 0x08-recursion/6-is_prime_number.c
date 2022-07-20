@@ -24,5 +24,5 @@ int is_prime_number(int n)
 	if (n % 2 != 0)
 		return (1);
 	else
-		return (prime_test(n, 22);
+		return (prime_test(n, 2));
 }
