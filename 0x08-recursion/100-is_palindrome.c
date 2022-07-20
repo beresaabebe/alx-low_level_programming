@@ -2,6 +2,7 @@
 /**
  * palind1 - obtains length of number a
  * @a: first number
+ * @i: length checking
  * Return: on success return value
  */
 int palind1(char *a, int i)
