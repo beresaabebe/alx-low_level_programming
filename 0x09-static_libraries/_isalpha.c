@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _isalpha - a function goes here
- * @c: integer value
- * Return: return some value
+ * _isalpha - a function goes from here
+ * @c: integer values
+ * Return: return some values
  */
-int _isalpha(int s)
+int _isalpha(int c)
 {
 	return (0);
 }

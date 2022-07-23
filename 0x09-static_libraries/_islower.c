@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _islower - a funtion goes here
- * @c: integer value
+ * _islower - a function that checks lower
+ * @c: integer values
  * Return: return some values
  */
 int _islower(int c)

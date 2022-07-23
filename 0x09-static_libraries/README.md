@@ -1,1 +1,1 @@
-C programming static and Dynamic library
+Static libraries
