@@ -7,7 +7,16 @@
  */
 int main(int argc, char *argv[])
 {
-	printf("%d\n", argc);
+	int i;
+
+	if (argc == 1)
+		printf("%d\n", argc);
+	else
+	{
+		for (i = 0; *argv; i++, argv++)
+			;
+		printf("%d\n", i - 1);
+	}
 
 	return (0);
 }
