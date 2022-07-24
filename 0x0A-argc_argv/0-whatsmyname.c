@@ -5,7 +5,7 @@
  * @argv: argument vector
  * Return: return some values
  */
-int main(int argc, int *argv[])
+int main(int argc, char *argv[])
 {
 	printf("%s\n", argv[argc * 0]);
 
