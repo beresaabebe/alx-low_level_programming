@@ -9,14 +9,14 @@
 int _strlen(char *s)
 {
 	int a;
-	 for (a = 0; s[a] != '\0'; a++)
-		 ;
-	 return (a);
+	for (a = 0; s[a] != '\0'; a++)
+		;
+	return (a);
 }
 /**
  * _strncat -  a funtion to concatenate strings with bytes
  * @dest: destination string
- * @str: source string
+ * @src: source string
  * @n: char size int type
  * Return: return dest
  */
