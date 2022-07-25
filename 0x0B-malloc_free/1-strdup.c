@@ -16,7 +16,7 @@ int _strlen(char *s)
 	return (a);
 }
 /**
- * *_strdup: a funtion that return pointer to string
+ * *_strdup - a funtion that return pointer to string
  * @str: pointer to array of string
  * Return: return pointer to string
  */
