@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * _strlen - a funtion to return length of string
- * @s: char type variable 
+ * @s: char type variable
  * Return: return length of string
  */
 int _strlen(char *s)
@@ -34,7 +34,7 @@ char *_strdup(char *str)
 	ptr = malloc(size * sizeof(char));
 
 	x = 0;
-	while(x < size)
+	while (x < size)
 	{
 		if (ptr == NULL)
 		{
