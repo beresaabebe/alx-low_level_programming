@@ -1,3 +1,8 @@
+/**
+ * File: 0-malloc_checked.c
+ * Auth: Beresa Abebe
+ */
+
 #include "main.h"
 #include <stdlib.h>
 /**
