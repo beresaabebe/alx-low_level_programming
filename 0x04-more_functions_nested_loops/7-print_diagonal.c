@@ -1,31 +1,33 @@
-#include "main.h"
+#include "holberton.h"
+
 /**
- * print_dagonal - a fuck that checks for a digits
- * @n: n - is a variable
- * Return: always show return values
+ * print_diagonal -  checks for checks for a digit (0 through 9).
+ * @n: n -  Variable
+ *
+ * Return: Always 0.
  */
 void print_diagonal(int n)
 {
-        int a, b;
+	int x, y;
 
-        if (n > 0)
-        {
-                for (a = 1; a <= n; a++)
-                {
-                        for (b = 1; b <= n; b++)
-                        {
-                                if (a == b)
-                                {
-                                        _putchar(92);
-                                        break;
-                                }
-                                _putchar(' ');
-                        }
-                        _putchar('\n');
-                }
-        }
-        else
-        {
-                _putchar('\n');
-        }
+	if (n > 0)
+	{
+		for (x = 1; x <= n; x++)
+		{
+			for (y = 1; y <= n; y++)
+			{
+				if (x == y)
+				{
+					_putchar(92);
+					break;
+				}
+				_putchar(' ');
+			}
+			_putchar('\n');
+		}
+	}
+	else
+	{
+		_putchar('\n');
+	}
 }
